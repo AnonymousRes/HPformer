@@ -72,3 +72,5 @@ Use the following command to extract validation set from the training set. This 
 ### LOSP Task
       python OurLengthOfStayPrediction.py --mimic_dataset 3
       python OurLengthOfStayPrediction.py --mimic_dataset 4
+## Note
+If you have any questions, please send me a private message via GitHub.
