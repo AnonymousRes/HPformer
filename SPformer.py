@@ -89,8 +89,9 @@ class FindKVblock(nn.Module):
     def forward(self, x):
         x_size = x.size()
         n_batchsize, n_timestep, n_orifeatdim = x_size[0], x_size[1], x_size[2]
+        block_size = int(n_timestep / self.n_stages)
         if n_timestep % self.n_stages != 0:
-            post_pad_len = int(n_timestep / self.n_stages) - (self.n_timestep % self.n_stages)
+            post_pad_len = block_size - (n_timestep % block_size)
             self.n_stages = self.n_stages + 1
             x = torch.nn.functional.pad(input=x, pad=(0, 0, 0, post_pad_len), mode='constant', value=0.0)
         chunked_x = torch.reshape(x, [n_batchsize*self.n_stages, int(n_timestep/self.n_stages), n_orifeatdim])
