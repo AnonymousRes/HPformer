@@ -4,7 +4,7 @@ Health Informatics</h1>
 
 This is the PyTorch implementation of the HPformer paper.
 <p align="center">
- <img src="HPformer.png" width="800"/>
+ <img src="HPformer.png" width="1000"/>
 </p>
 
 
