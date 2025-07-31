@@ -2,15 +2,8 @@
 This is the PyTorch implementation of the HPformer paper.
 
 <p align="center">
-  <img src="HPformer.png" alt="HPformer" height="300">
+  <img src="HPformer.png" alt="HPformer" width="888">
 </p>
-<p align="center"><b>Figure 1:</b> HPformer Architecture</p>
-
-<p align="center">
-  <img src="TDHPB.png" alt="TDHPB" height="266">
-</p>
-<p align="center"><b>Figure 2:</b> TDHP Block</p>
-
 > [**HPformer: Low-Parameter Transformer with Temporal Dependency Hierarchical Propagation for Health Informatics**](https://doi.org/10.1109/TPAMI.2025.3593657)  
 > Wu Lee, Yuliang Shi, Han Yu, Lin Cheng, Xinjun Wang, Zhongmin Yan, Fanyu Kong  
 > *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025*
