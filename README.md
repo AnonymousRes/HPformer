@@ -2,12 +2,12 @@
 This is the PyTorch implementation of the HPformer paper.
 
 <p align="center">
-  <img src="HPformer.png" alt="HPformer" height="260">
+  <img src="HPformer.png" alt="HPformer" height="300">
 </p>
 <p align="center"><b>Figure 1:</b> HPformer Architecture</p>
 
 <p align="center">
-  <img src="TDHPB.png" alt="TDHPB" height="260">
+  <img src="TDHPB.png" alt="TDHPB" height="266">
 </p>
 <p align="center"><b>Figure 2:</b> TDHP Block</p>
 
