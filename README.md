@@ -1,6 +1,6 @@
-<h1 align="center">HPformer: Low-Parameter Transformer with
-Temporal Dependency Hierarchical Propagation for
-Health Informatics</h1>
+> [**HPformer: Low-Parameter Transformer with Temporal Dependency Hierarchical Propagation for Health Informatics**](https://doi.org/10.1109/TPAMI.2025.3593657)  
+> Wu Lee\*, Yuliang Shi\*, Han Yu, Lin Cheng, Xinjun Wang, Zhongmin Yan, Fanyu Kong  
+> *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025*
 
 This is the PyTorch implementation of the HPformer paper.
 <p align="center">
