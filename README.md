@@ -3,15 +3,9 @@ Temporal Dependency Hierarchical Propagation for
 Health Informatics</h1>
 
 This is the PyTorch implementation of the HPformer paper.
-<p align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="HPformer.png" alt="HPformer" height="300">
-    <figcaption>Figure 1: HPformer Architecture</figcaption>
-  </figure>
-  <figure style="margin: 0; text-align: center;">
-    <img src="TDHPB.png" alt="TDHPB" height="300">
-    <figcaption>Figure 2: TDHP Block</figcaption>
-  </figure>
+<p align="center">
+  <img src="HPformer.png" alt="Image 1" height="300" style="margin-right:5px;"/>
+  <img src="TDHPB.png" alt="Image 2" height="300"/>
 </p>
 
 
