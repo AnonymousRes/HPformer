@@ -84,7 +84,7 @@ Use the following command to extract validation set from the training set. This 
       python OurLengthOfStayPrediction.py --mimic_dataset 3
       python OurLengthOfStayPrediction.py --mimic_dataset 4
 ### LRA Tasks
-For LRA tasks, please conduct experiments based on this repository and the successful and influential PyTorch-based LRA benchmark repository https://github.com/facebookresearch/mega. The parameter settings and training procedures used in this paper can be found in the log files under the LRA_log directory.
+For LRA tasks, please conduct experiments based on this repository and the successful and influential PyTorch-based LRA benchmark repository https://github.com/facebookresearch/mega. The parameter settings and training procedures used in this paper can be found in the log files under the `LRA_log` directory.
 ## Note
 If you have any questions, please send me a private message via GitHub.
 
