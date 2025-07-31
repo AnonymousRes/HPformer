@@ -1,3 +1,11 @@
+<h1 align="center">HPformer: Low-Parameter Transformer with
+Temporal Dependency Hierarchical Propagation for
+Health Informatics</h1>
+
+This is the PyTorch implementation of the HPformer paper.
+
+
+
 Usage Guidelines
 =========================
 Under the relevant agreements, we do not provide the MIMIC-IV data itself. You must acquire the data yourself from https://mimic.physionet.org/. Specifically, download the CSVs.
@@ -74,3 +82,18 @@ Use the following command to extract validation set from the training set. This 
       python OurLengthOfStayPrediction.py --mimic_dataset 4
 ## Note
 If you have any questions, please send me a private message via GitHub.
+
+## Citation
+```bibtex
+@ARTICLE{11098976,
+  author={Lee, Wu and Shi, Yuliang and Yu, Han and Cheng, Lin and Wang, Xinjun and Yan, Zhongmin and Kong, Fanyu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={HPformer: Low-Parameter Transformer with Temporal Dependency Hierarchical Propagation for Health Informatics}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-17},
+  keywords={Transformers;Data models;Computational modeling;Predictive models;Bioinformatics;Attention mechanisms;Accuracy;Feature extraction;Software;Representation learning;Self-Attention;Transformer;RNN;Temporal dependency;health informatics},
+  doi={10.1109/TPAMI.2025.3593657}}
+```
+
