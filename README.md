@@ -1,4 +1,4 @@
-<h1 align="center">HPformer: Low-Parameter Transformer with Temporal Dependency Hierarchical Propagation for Health Informatics</h1>
+<h1 align="center">HPformer: Low-Parameter Transformer with Temporal Dependency Hierarchical Propagation</h1>
 This is the PyTorch implementation of the HPformer paper.
 
 <p align="center">
