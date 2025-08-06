@@ -88,7 +88,7 @@ Use the following command to extract validation set from the training set. This 
       python OurLengthOfStayPrediction.py --mimic_dataset 3
       python OurLengthOfStayPrediction.py --mimic_dataset 4
 ### LRA Tasks
-For LRA tasks, please conduct experiments based on this repository and the successful and influential PyTorch-based LRA benchmark repository https://github.com/facebookresearch/mega. Specifically, place `hpformer_lra_encoder.py` and `model.py` under the directory `mega/fairseq/models/lra/`, and set the parameters and experimental environment according to the logs in `LRA_log/*_log.txt`. **Please make sure to carefully read the usage guide for `mega`**. The training procedures used in this paper can be found in the log files under the `LRA_log/*_log.txt` directory. The correspondence between each task and its log file is as follows:
+For LRA tasks, please conduct experiments based on this repository and the successful and influential PyTorch-based LRA benchmark repository https://github.com/facebookresearch/mega. Specifically, place `hpformer_lra_encoder.py` and `model.py` under the directory `mega/fairseq/models/lra/`, and set the parameters and experimental environment according to the logs in `LRA_log/*_log.txt`. As a rare and highly valuable contribution, 'mega' repository provides a thorough and meticulous implementation of all details related to the LRA benchmark. **Please make sure to carefully read the usage guide for `mega`**. The training procedures used in this paper can be found in the log files under the `LRA_log/*_log.txt` directory. The correspondence between each task and its log file is as follows:
 
 <pre>
 ListOps:     LRA_log/listops_hpformer_log.txt
