@@ -105,12 +105,12 @@ If you have any questions, please send me a private message via GitHub.
 @ARTICLE{11098976,
   author={Lee, Wu and Shi, Yuliang and Yu, Han and Cheng, Lin and Wang, Xinjun and Yan, Zhongmin and Kong, Fanyu},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={HPformer: Low-Parameter Transformer with Temporal Dependency Hierarchical Propagation for Health Informatics}, 
+  title={HPformer: Low-Parameter Transformer With Temporal Dependency Hierarchical Propagation for Health Informatics}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-17},
-  keywords={Transformers;Data models;Computational modeling;Predictive models;Bioinformatics;Attention mechanisms;Accuracy;Feature extraction;Software;Representation learning;Self-Attention;Transformer;RNN;Temporal dependency;health informatics},
+  volume={47},
+  number={11},
+  pages={10770-10786},
+  keywords={Transformers;Data models;Computational modeling;Predictive models;Bioinformatics;Attention mechanisms;Accuracy;Feature extraction;Software;Representation learning;Self-attention (SA);transformer;RNN;temporal dependency;health informatics},
   doi={10.1109/TPAMI.2025.3593657}}
 ```
 
